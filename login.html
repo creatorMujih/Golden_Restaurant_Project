@@ -4,29 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+
+    <a href="register.html">Register</a>
     <form action="" method="post">
 
         <div class="container">
-            <h2>Login</h2>
-            <label for="uname"><b>Username or Email</b></label>
-            <input type="text" placeholder="Enter Username" name="uname" required>
-            <br><br>
 
-            <label for="psw"><b>Password</b></label>
-            <input type="text" placeholder="Enter Password" name="psw" required>
-            <button type="submit">Login</button>
-            <label>
-            <input type="checkbox" checked="checked" name="remember" Remember Me>
-            </label>
+            <h2>Login</h2>
+
+            <label for="email"><b>Email Address</b></label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <label for="password"><b>Password</b></label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+           <button type="submit">Login</button>
+
+            <div class="options">
+                <label>
+                    <input type="checkbox" name="remember"> Remember Me </label>
+                <a href="#">Forgot Password?</a>
+            </div>
+
         </div>
 
-        <div class="container" style="background-color: whitesmoke">
-            <button type="button" class="canclebtn">Cancel</button>
-            <span class="psw">Forgot Password<a href="#"></a></span>
+        <div class="bottom">
+            <button type="button" class="cancelbtn">Cancel</button>
+        </div>
+
+        <div class="register">
+            <p>Don't have an account? 
+                <a href="register.html">Register</a>
+            </p>
         </div>
     </form>
+
 </body>
 </html>
