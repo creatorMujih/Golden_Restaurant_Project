@@ -155,3 +155,37 @@
     width: 100%;
     }
     }
+
+    header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background: white;
+    }
+
+    .logo img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    }
+
+    .logo {
+        text-align: right;
+        margin-bottom: 10px;
+    }
+    nav {
+    display: flex;
+    gap: 20px;
+    }
+
+    nav a {
+    text-decoration: none;
+    color: purple;
+    font-weight: bold;
+    }
+
+    nav a:hover {
+    color: purple;
+    }
