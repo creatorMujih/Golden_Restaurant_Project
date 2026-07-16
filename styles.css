@@ -32,6 +32,11 @@
     border: 2px solid transparent;
     }
 
+    img {
+    width: 100%;
+    max-height: 600px;
+    object-fit: fill;
+}
     .nav-links a:hover {
     border-color: white;
     transform: translateY(-2px);
