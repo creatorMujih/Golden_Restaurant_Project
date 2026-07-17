@@ -1,12 +1,21 @@
 /* Styles
 */
+
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
     body{
-        background-color: white;
+        background-color: rgb(218, 215, 32);
     }
 
     h1,
-    h2 {
+    h2,
+    p {
         color: purple;
+        margin: 0;
     }
 
     .header {
@@ -14,7 +23,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background: white;
+    background: rgb(218, 215, 32);
     color: white;
     }
 
@@ -36,7 +45,8 @@
     width: 100%;
     max-height: 600px;
     object-fit: fill;
-}
+    }
+
     .nav-links a:hover {
     border-color: white;
     transform: translateY(-2px);
@@ -161,24 +171,17 @@
     }
     }
 
-    header {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 40px;
-    background: white;
-    }
-
+   
     .logo img {
-    width: 120px;
-    height: 120px;
+    width: 60px;
+    height: 60px;
     object-fit: contain;
     }
 
     .logo {
         text-align: right;
-        margin-bottom: 10px;
+        padding: 5px 20px;
+        margin: 2;
     }
     nav {
     display: flex;
@@ -201,6 +204,11 @@
     gap: 30px;
     flex-wrap: wrap;
     padding: 20px;
+    }
+
+    .menu-header{
+    text-align: center;
+    padding: 20px 0;
     }
 
      .food-card {
